@@ -1,0 +1,26 @@
+{
+    "name": "redpandacoding/contracts",
+    "description": "A set of abstractions the are commonly used",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Redpandacoding\\Contracts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jordan Wamser",
+            "email": "jwamser@redpandacoding.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0 || ^8.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    }
+}
