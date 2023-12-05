@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the RedPanda Coding Exceptions package.
+ * This file is part of the RedPanda Coding Contracts package.
  *
  * Copyright (c) 2023.  Jordan Wamser <jwamser@redpandacoding.com>
  *
