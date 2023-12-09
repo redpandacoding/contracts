@@ -23,11 +23,6 @@ interface KernelInterface
     public function getContainer(): \Symfony\Component\DependencyInjection\ContainerInterface;
 
     /**
-     * Handle an incoming console command.
-     */
-    public function handle(\Symfony\Component\Console\Input\InputInterface $input,?\Symfony\Component\Console\Output\OutputInterface $output = null): int;
-
-    /**
      * Shutdowns the kernel.
      *
      * This method is mainly useful when doing functional testing.
