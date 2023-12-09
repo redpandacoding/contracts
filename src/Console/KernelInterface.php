@@ -12,7 +12,15 @@ namespace Redpandacoding\Contracts\Console;
 
 interface KernelInterface
 {
-    public function bootstrap(): void;
+    /**
+     * Boots the current kernel.
+     */
+    public function boot(): void;
+
+    /**
+     * Gets the current container.
+     */
+    public function getContainer(): Symfony\Component\DependencyInjection\ContainerInterface;
 
     /**
      * Handle an incoming console command.
