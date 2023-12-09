@@ -20,7 +20,7 @@ interface KernelInterface
     /**
      * Gets the current container.
      */
-    public function getContainer(): Symfony\Component\DependencyInjection\ContainerInterface;
+    public function getContainer(): \Symfony\Component\DependencyInjection\ContainerInterface;
 
     /**
      * Handle an incoming console command.
