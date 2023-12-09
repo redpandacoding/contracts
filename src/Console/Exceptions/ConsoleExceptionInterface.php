@@ -11,11 +11,11 @@
 namespace Redpandacoding\Contracts\Console\Exceptions;
 
 /**
- * The base interface for all exceptions in the contract.
+ * The base interface for all CONSOLE-exceptions in the contract.
  *
  * @author Jordan Wamser <jwamser@redpandacoding.com>
  */
-interface ExceptionInterface extends \Redpandacoding\Contracts\Exceptions\ExceptionInterface
+interface ConsoleExceptionInterface extends \Redpandacoding\Contracts\Exceptions\ExceptionInterface
 {
 
 }
