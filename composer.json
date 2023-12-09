@@ -1,12 +1,16 @@
 {
     "name": "redpandacoding/contracts",
     "description": "A set of abstractions the are commonly used",
+    "keywords": ["abstractions", "contracts", "decoupling", "interfaces", "interoperability", "standards", "dev"],
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Redpandacoding\\Contracts\\": "src/"
-        }
+        },
+        "exclude-from-classmap": [
+            "**/Tests/"
+        ]
     },
     "authors": [
         {
@@ -16,7 +20,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.0 || ^8.0"
+        "php": "^7.4 || ^8.1"
     },
     "extra": {
         "branch-alias": {
