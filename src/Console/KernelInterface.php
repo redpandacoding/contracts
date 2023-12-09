@@ -30,4 +30,6 @@ interface KernelInterface
      * @return void
      */
     public function shutdown();
+
+    public function run();
 }
