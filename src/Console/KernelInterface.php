@@ -28,13 +28,11 @@ interface KernelInterface
     public function handle(\Symfony\Component\Console\Input\InputInterface $input,?\Symfony\Component\Console\Output\OutputInterface $output = null): int;
 
     /**
-     * Run an console command by name.
+     * Shutdowns the kernel.
+     *
+     * This method is mainly useful when doing functional testing.
+     *
+     * @return void
      */
-    public function call(string $command, array $parameters = [],?\Symfony\Component\Console\Output\OutputInterface $outputBuffer = null): int;
-
-    /**
-     * Get all of the commands registered with the console.
-     */
-    public function all(): array;
-
+    public function shutdown();
 }
